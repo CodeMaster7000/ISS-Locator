@@ -43,4 +43,4 @@ while True:
     print("\nLatitude: " + str(lat))
     print("\nLongitude: " + str(lon))
     iss.goto(lon, lat)
-    time.sleep(5)
+    time.sleep(0.1)
