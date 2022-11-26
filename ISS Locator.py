@@ -10,7 +10,6 @@ response = urllib.request.urlopen(url)
 result = json.loads(response.read())
 file = open("iss.txt", "w") 
 file.write("There are currently " +
-            # prints number of astronauts
            str(result["number"]) + " astronauts on the ISS: \n\n")
 people = result["people"]
 
